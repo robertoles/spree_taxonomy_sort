@@ -1,4 +1,4 @@
-class AddSortAndExternalCodeToTaxonomies < ActiveRecord::Migration
+class AddSortToTaxonomies < ActiveRecord::Migration
   def change
     add_column :spree_taxonomies, :sort, :string
     add_column :spree_taxons, :sort, :string
